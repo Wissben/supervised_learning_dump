@@ -21,7 +21,7 @@ k=2
 nbr_good_answer=0
 for(i in 1:n)
 {
-
+  
   for(j in 1:k)
   {
     score=gaussien(A$X[i,],Q$Mu,j,Q$Pi,Q$S)
@@ -41,10 +41,10 @@ for(i in 1:n)
     
   }
   liste_id=c(liste_id,index)
- if(A$id[i]==index)
- {
-   nbr_good_answer=nbr_good_answer+1
- }
+  if(A$id[i]==index)
+  {
+    nbr_good_answer=nbr_good_answer+1
+  }
   
 }
 
@@ -65,7 +65,7 @@ box()
 
 liste_id=c()
 n=500
-k=2
+k=3
 nbr_good_answer=0
 for(i in 1:n)
 {
@@ -113,7 +113,7 @@ box()
 
 liste_id=c()
 n=500
-k=2
+k=3
 nbr_good_answer=0
 for(i in 1:n)
 {
